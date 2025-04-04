@@ -23,11 +23,11 @@ function Banner() {
 
 
             <div className="text-center p-[10%] text-white">
-                <p className="text-[16px] font-bold">Hi, I am <span className="text-white text-[24px]">Mahima</span>, Corporate Lawyer | CS Professional</p>
+                <p className="text-[16px] font-thin font-serif animate-slide-up">Hi, I am <span className="text-white text-[24px] font-normal ">Mahima</span>, Lawyer | CS Professional</p>
             </div>
 
-            <div className="px-[10%] text-center text-gray-200 text-[12px]">
-                I am a corporate law professional with expertise in corporate advisory, capital markets, infrastructure and project finance, and regulatory compliance.
+            <div className="px-[10%] text-center text-gray-200 text-[12px] font-serif animate-slide-up">
+                I am a law professional with expertise in corporate advisory, capital markets, infrastructure and project finance, and regulatory compliance.
             </div>
 
 

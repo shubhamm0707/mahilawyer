@@ -7,11 +7,13 @@ import SeeMore from "./SeeMore";
 import { useState, useEffect } from "react";
 import Disclaimer from "./Disclaimer";
 import PrivacyPolicy from "./PrivacyPolicy";
+import TermsOfUse from "./TermsOfUse";
 
 function App() {
   const [showMore, setShowMore] = useState(false);
   const [data, setData] = useState([]);
   const [showPrivacy, setShowPrivacy] = useState(false);  // Make sure this is false by default
+  const [showTerms, setShowTerms] = useState(false);
 
   // https://shubhamm0707.github.io/jsonAPI/data.json
   useEffect(() => {
@@ -31,8 +33,9 @@ function App() {
     <div className="relative">
 
       {showPrivacy && <PrivacyPolicy setShowPrivacy={setShowPrivacy} />}
+      {showTerms && <TermsOfUse setShowTerms={setShowTerms} />}
 
-      {!showPrivacy && (
+      {(!showPrivacy && !showTerms) && (
         <>
           <Disclaimer />
           <Banner />
@@ -51,7 +54,7 @@ function App() {
           </div>
           {/* <SeeMore data={data} showMore={showMore} setShowMore={setShowMore} /> */}
           <ExpertiseContainer />
-          <Footer setShowPrivacy={setShowPrivacy} />
+          <Footer setShowPrivacy={setShowPrivacy} setShowTerms={setShowTerms} />
         </>
       )}
     </div>

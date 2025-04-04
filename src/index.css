@@ -249,7 +249,7 @@ will start immediately after the top of the page, effectively appearing behind t
 .exp-img-div {
   width: 100%;
   height: 100%;
-  background-image: url('https://trilegal.com/wp-content/themes/trilegal/assets/images/home-banner.jpg?no-cache=4');
+  background-image: url('https://duws858oznvmq.cloudfront.net/Skills_Needed_for_a_Lawyer_ce34e520b3.webp');
   background-size: cover;
   border-radius: 10px;
 }
@@ -308,6 +308,39 @@ will start immediately after the top of the page, effectively appearing behind t
 .mT1 {
   margin-top: 1vh;
 }
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  animation: slideLeft 1s ease-out forwards;
+}
+
 
 /*  */
 

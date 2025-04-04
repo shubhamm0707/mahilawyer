@@ -1,13 +1,13 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = ({ setShowPrivacy }) => {
+const Footer = ({ setShowPrivacy, setShowTerms }) => {
     return (
         <footer className="bg-[#005380] text-white px-[10%] mx-auto">
             <div className="flex justify-between flex-wrap mx-auto">
                 <div className="w-full">
-                    <h2 className="logo text-xl text-center my-5">Mahima Chaudhary</h2>
-                    <p className="mT1 text-center">We create digital experiences for brands and companies by using technology.</p>
+                    <h2 className="logo text-xl text-center my-5 font-serif">Mahima Chaudhary</h2>
+                    <p className="mT1 text-center font-serif">Protect | Grow | Succeed – Corporate Legal Expertise You Can Trust.</p>
                     <div className="flex justify-evenly mt-5">
                         <span>🔵</span>
                         <span>🐦</span>
@@ -31,11 +31,11 @@ const Footer = ({ setShowPrivacy }) => {
             </div>
 
             <div
-                className="footer-bottom text-[12px] text-gray-200 text-center py-4 cursor-pointer hover:text-blue-700 transition"
-                onClick={() => setShowPrivacy(true)}
+                className="footer-bottom text-[12px] text-gray-200 text-center py-4 cursor-pointer transition"
             >
-                <p className="mb-1 underline underline-offset-2">Privacy Policy | Legal Notice | Terms of Service</p>
-                <p className="text-gray-400">© 2025 Mahima Chaudhary. All rights reserved.</p>
+                <span onClick={() => setShowPrivacy(true)} className="mb-1 font-serif">Privacy Policy | </span>
+                <span onClick={() => setShowTerms(true)} className="mb-1 font-serif">Terms of Service</span>
+                <p className="text-gray-400 font-serif">© 2025 Mahima Chaudhary. All rights reserved.</p>
             </div>
         </footer>
     );

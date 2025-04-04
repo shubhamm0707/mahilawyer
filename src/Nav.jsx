@@ -25,7 +25,7 @@ const Nav = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center gap-6 mt-10 w-full">
-                <h1 className="text-[#004080] text-[24px] font-bold">Mahima Chaudhary</h1>
+                <h1 className="text-[#004080] text-[24px] font-bold font-serif">Mahima Chaudhary</h1>
 
                 <div className="flex flex-col justify-center gap-6 w-[80%] mt-10 text-white">
                     <button className="neuromorphic-btn">HOME</button>

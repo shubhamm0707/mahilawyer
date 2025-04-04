@@ -29,7 +29,7 @@ function Header({ isMenuOpen }) {
     return (
         <header className={isMenuOpen ? "hidden" : ""}>
             <div className="flex header-container">
-                <a href="#" className="logo p-4 text-[18px] font-[Roboto]">Mahima Chaudhary</a>
+                <a href="#" className="logo p-4 text-[18px] font-serif">Mahima Chaudhary</a>
 
                 <ul className={`w-full h-[35vh]bg - slate - 400 top - 0 ${isOpen ? 'flex' : 'hidden'} flex - col items - center justify - evenly gap - 0 absolute`}>
                     <li><a className="text-[20px]" href="#">Home</a></li>
