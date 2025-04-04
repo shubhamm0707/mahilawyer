@@ -5,11 +5,22 @@
     border-radius: 12px;
     box-shadow: -8px -8px 16px #bebebe, 8px 8px 16px #ffffff;
     font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
     border: none;
     outline: none;
     transition: all 0.3s ease;
 }
+
+.GillFont {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.SubFont {
+    font-family: cursive;
+}
+
+
 
 .neuromorphic-btn:hover {
     box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;

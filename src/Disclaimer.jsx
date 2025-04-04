@@ -5,20 +5,29 @@ const Disclaimer = () => {
         return localStorage.getItem('disclaimerAccepted') === 'true';
     });
 
+    useEffect(() => {
+        if (!isAccepted) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+
+        return () => {
+            document.body.style.overflow = 'auto'; // Ensure scroll is enabled when component unmounts
+        };
+    }, [isAccepted]);
+
     const handleAccept = () => {
         setIsAccepted(true);
         localStorage.setItem('disclaimerAccepted', 'true');
     };
 
-    if (isAccepted) {
-        return null;
-    }
-
+    if (isAccepted) return null;
     return (
-        <div className="fixed bottom-0 w-full bg-white shadow-lg z-[10000] h-[40vh] flex flex-col rounded-t-2xl animate-slide-up">
+        <div className="fixed bottom-0 w-full bg-white shadow-lg z-[10000] h-[40vh] flex flex-col rounded-t-2xl animate-slide-up font-serif">
             {/* Header */}
-            <div className="p-4 border-b border-gray-200 rounded-t-2xl">
-                <h2 className="text-xl font-bold text-[#004080]">Disclaimer</h2>
+            <div className="p-4 border-b border-gray-400 rounded-t-2xl">
+                <h2 className="text-xl font-bold text-[#004080] font-serif">Disclaimer</h2>
             </div>
 
             {/* Scrollable content */}
