@@ -11,8 +11,8 @@ const Nav = () => {
 
     return <div className="relative">
         <div className={`w-[80vw] h-[100vh] transition-all duration-500 ease-in-out bg-white
-                absolute top-0 ${isOpen ? 'right-[0vw]' : 'right-[-80vw]'} 
-                flex items-start justify-center z-[9999]`}>
+                fixed top-0 ${isOpen ? 'right-[0vw]' : 'right-[-80vw]'}
+                flex items-start justify-center z-[2]`}>
 
             <div className="absolute mt-20 z-[-10] left-0">
                 <div className="w-40 h-40 text-white text-2xl rounded-full flex cursor-pointer">
@@ -29,9 +29,10 @@ const Nav = () => {
 
                 <div className="flex flex-col justify-center gap-6 w-[80%] mt-10 text-white">
                     <button className="neuromorphic-btn">HOME</button>
-                    <button className="neuromorphic-btn">ABOUT ME</button>
-                    <button className="neuromorphic-btn">SERVICES</button>
-                    <button className="neuromorphic-btn">BLOGS</button>
+                    <button className="neuromorphic-btn">EXPERTISE</button>
+                    <button className="neuromorphic-btn">INSIGHTS & UPDATES</button>
+                    <button className="neuromorphic-btn">RESOURCE</button>
+                    <button className="neuromorphic-btn">ABOUT</button>
                     <button className="neuromorphic-btn">CONTACT ME</button>
                 </div>
             </div>

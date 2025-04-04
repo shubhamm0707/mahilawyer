@@ -18,3 +18,17 @@
 .neuromorphic-btn:active {
     box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
 }
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.animate-slide-up {
+    animation: slide-up 0.4s ease-out forwards;
+}

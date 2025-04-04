@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({ setShowPrivacy }) => {
     return (
         <footer className="bg-[#005380] text-white px-[10%] mx-auto">
             <div className="flex justify-between flex-wrap mx-auto">
@@ -30,9 +30,12 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="footer-bottom text-[12px]">
-                <p>Privacy policy | Legal notice | Terms of service</p>
-                <p>© 2025 TailGrids</p>
+            <div
+                className="footer-bottom text-[12px] text-gray-200 text-center py-4 cursor-pointer hover:text-blue-700 transition"
+                onClick={() => setShowPrivacy(true)}
+            >
+                <p className="mb-1 underline underline-offset-2">Privacy Policy | Legal Notice | Terms of Service</p>
+                <p className="text-gray-400">© 2025 Mahima Chaudhary. All rights reserved.</p>
             </div>
         </footer>
     );

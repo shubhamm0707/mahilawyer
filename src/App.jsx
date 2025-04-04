@@ -5,10 +5,13 @@ import ExpertiseContainer from "./Expertise-container";
 import Banner from "./Banner";
 import SeeMore from "./SeeMore";
 import { useState, useEffect } from "react";
+import Disclaimer from "./Disclaimer";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 function App() {
   const [showMore, setShowMore] = useState(false);
   const [data, setData] = useState([]);
+  const [showPrivacy, setShowPrivacy] = useState(false);  // Make sure this is false by default
 
   // https://shubhamm0707.github.io/jsonAPI/data.json
   useEffect(() => {
@@ -25,19 +28,32 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <Banner />
-      <section className="about flex">
-        <h1>BLOGS AND INSIGHTS</h1>
-      </section>
-      <div>
-        {data && data.map((item) => {
-          return <Article cardTitle={item.cardTitle} borderColor={item.borderColor} imgUrl={item.imgUrl} />
-        })}
-      </div>
-      {/* <SeeMore data={data} showMore={showMore} setShowMore={setShowMore} /> */}
-      <ExpertiseContainer />
-      <Footer />
+    <div className="relative">
+
+      {showPrivacy && <PrivacyPolicy setShowPrivacy={setShowPrivacy} />}
+
+      {!showPrivacy && (
+        <>
+          <Disclaimer />
+          <Banner />
+          <section className="about flex">
+            <h1>BLOGS AND INSIGHTS</h1>
+          </section>
+          <div>
+            {data && data.map((item, index) => (
+              <Article
+                key={index}
+                cardTitle={item.cardTitle}
+                borderColor={item.borderColor}
+                imgUrl={item.imgUrl}
+              />
+            ))}
+          </div>
+          {/* <SeeMore data={data} showMore={showMore} setShowMore={setShowMore} /> */}
+          <ExpertiseContainer />
+          <Footer setShowPrivacy={setShowPrivacy} />
+        </>
+      )}
     </div>
   );
 }

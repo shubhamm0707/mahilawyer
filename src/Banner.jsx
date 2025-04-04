@@ -1,6 +1,7 @@
 import Header from "./Header";
 import './Banner.css';
 import Nav from "./Nav"
+import ResumeDownloadButton from "./DownloadResume";
 
 
 
@@ -30,23 +31,9 @@ function Banner() {
             </div>
 
 
-            <button className="primary-btn mt-14 w-[50%] h-[7%] bg-white text-[14px] text-[#004080]">Download Resume</button>
+            <ResumeDownloadButton />
 
 
-
-            {/* <section className="title container">
-            <p className="banner-subheading">Protect | Grow | Succeed – Corporate Legal Expertise You Can Trust.</p>
-            <h3 className="banner-heading">
-                Your Partner in Business Law/Compliance
-            </h3>
-            <p className="banner-rhym"> I specialize in corporate
-                law, contract drafting, business compliance, and dispute
-                resolution. <br /> Let's protect and grow your business together.</p>
-            <div style={{ marginTop: "20px" }}>
-                <button className="primary-btn">View My Services</button>
-                <button className="sec-btn">Schedule a Consultation</button>
-            </div>
-        </section> */}
 
         </section>
     </>
