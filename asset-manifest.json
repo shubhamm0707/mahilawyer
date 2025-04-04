@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mahilawyer/static/css/main.0511a116.css",
-    "main.js": "/mahilawyer/static/js/main.cdae4754.js",
-    "static/js/453.ed3810f9.chunk.js": "/mahilawyer/static/js/453.ed3810f9.chunk.js",
-    "static/media/headerbg.jpg": "/mahilawyer/static/media/headerbg.3d0034524747357fd849.jpg",
-    "index.html": "/mahilawyer/index.html",
-    "main.0511a116.css.map": "/mahilawyer/static/css/main.0511a116.css.map",
-    "main.cdae4754.js.map": "/mahilawyer/static/js/main.cdae4754.js.map",
-    "453.ed3810f9.chunk.js.map": "/mahilawyer/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.09ef963e.css",
+    "main.js": "/static/js/main.9756ab97.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/headerbg.jpg": "/static/media/headerbg.3d0034524747357fd849.jpg",
+    "index.html": "/index.html",
+    "main.09ef963e.css.map": "/static/css/main.09ef963e.css.map",
+    "main.9756ab97.js.map": "/static/js/main.9756ab97.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0511a116.css",
-    "static/js/main.cdae4754.js"
+    "static/css/main.09ef963e.css",
+    "static/js/main.9756ab97.js"
   ]
 }
