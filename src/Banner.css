@@ -1,0 +1,20 @@
+.neuromorphic-btn {
+    width: 100%;
+    padding: 15px 30px;
+    background: #004080;
+    border-radius: 12px;
+    box-shadow: -8px -8px 16px #bebebe, 8px 8px 16px #ffffff;
+    font-size: 16px;
+    margin: auto;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.neuromorphic-btn:hover {
+    box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+}
+
+.neuromorphic-btn:active {
+    box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+}

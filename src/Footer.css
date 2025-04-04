@@ -1,0 +1,46 @@
+.footer-links {
+    display: flex;
+    flex: 1;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-blog {
+    max-width: 250px;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.blog-thumbnail {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 5px;
+    background-image: url('https://demo.rivaxstudio.com/syron/main/wp-content/uploads/2024/09/664564563-440x440.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+}
