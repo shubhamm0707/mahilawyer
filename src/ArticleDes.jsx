@@ -18,7 +18,7 @@ const ArticleDes = ({ setShowArticle, articleIndex, articleData }) => {
 
             {article ? (
                 <>
-                    <h1 className="text-2xl font-bold mb-2">{article.cardTitle}</h1>
+                    <h1 className="text-xl font-bold mb-2">{article.cardTitle}</h1>
                     <div className="w-full border-t border-dotted border-gray-400"></div>
                     <div className="mt-4 mb-6">
                         <img
@@ -28,7 +28,7 @@ const ArticleDes = ({ setShowArticle, articleIndex, articleData }) => {
                         />
                     </div>
 
-                    <div>
+                    <div className="md:text-justify">
                         {article.des}
                     </div>
                     {/* <div className="space-y-4">
