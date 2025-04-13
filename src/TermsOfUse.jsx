@@ -20,7 +20,7 @@ const TermsOfUse = ({ setShowTerms }) => {
             <p className="mb-4">
                 Welcome to the portfolio website of Mahima Chaudhary. These Terms of Use ("Terms") govern your access to and use of the website located at <a href="https://www.advmahimachaudhary.com/">[<strong>https://www.advmahimachaudhary.com/</strong>]</a> (the "Website"). By using this Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, please do not use the Website.
             </p>
-            <div className="space-y-4">
+            <div className="space-y-4 text-justify">
                 <section>
                     <h2 className="font-bold text-md md:text-lg">1. DEFINITIONS</h2>
                     1.1 <strong>"Website"</strong> refers to the online portfolio of Mahima Chaudhary available at <a href="https://www.advmahimachaudhary.com/">[<strong>https://www.advmahimachaudhary.com/</strong>]</a>.

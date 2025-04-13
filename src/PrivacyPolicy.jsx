@@ -18,7 +18,7 @@ const PrivacyPolicy = ({ setShowPrivacy }) => {
             <div className="w-full border-t border-dotted border-gray-400"></div>
             <p className="mb-4"><em>Last Revised: April 13, 2025</em></p>
 
-            <div className="space-y-4">
+            <div className="space-y-4 text-justify">
                 <section>
                     <h2 className="font-bold text-md md:text-lg">1. INTRODUCTION</h2>
                     <p>
