@@ -31,6 +31,12 @@ const ArticleDes = ({ setShowArticle, articleIndex, articleData }) => {
                     <div className="md:text-justify">
                         {article.des}
                     </div>
+                    <br></br>
+                    <br></br>
+                    <h2 className="text-lg font-bold">References:</h2>
+                    <div className="md:text-justify">
+                        {article.ref}
+                    </div>
                     {/* <div className="space-y-4">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

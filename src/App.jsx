@@ -19,6 +19,102 @@ function App() {
   const [articleIndex, setArticleIndex] = useState(0);
 
   const list = [
+
+    {
+      "imgUrl": "https://t4.ftcdn.net/jpg/05/07/86/23/360_F_507862398_32KR3JkV4FihuEGTuFVjz9mVzM88H9sh.jpg",
+      "cardTitle": "Legal Remedies or Economic Warfare? Navigating the US-China Tariff Battle",
+      "ref": [
+        <div>
+          <div>
+            <p><sup>1</sup>The Hindu. (2025, April 11). Trump tariffs live updates: Stock markets react as U.S. hikes Chinese tariffs to 145%.</p>
+            <a className="text-blue-500 underline" href="https://www.thehindu.com/business/trump-tariffs-live-updates-stock-markets-reactions-us-china-trade-war-april-11-2025/article69438131.ece">https://www.thehindu.com/business/trump-tariffs-live-updates-stock-markets-reactions-us-china-trade-war-april-11-2025/article69438131.ece</a>
+          </div>
+          <br></br>
+          <div><sup>2</sup>Trade Act of 1974, 19 U.S.C. § 2411 (Section 301).</div>
+          <br></br>
+          <div><sup>3</sup>World Trade Organization. (1994). Understanding on Rules and Procedures Governing the Settlement of Disputes
+            (DSU), Article 23.</div>
+          <br></br>
+          <div><sup>4</sup>United States – Sections 301–310 of the Trade Act of 1974, WT/DS152/R (1999).</div>
+          <br></br>
+          <div><sup>5</sup>Ministry of Commerce of the People’s Republic of China. (2025). Notice on the Update of the Unreliable Entity
+            List. <a className="text-blue-500 underline" href="http://english.mofcom.gov.cn/">http://english.mofcom.gov.cn/</a>.</div>
+          <br></br>
+          <div><sup>6</sup>General Agreement on Tariffs and Trade (GATT), Articles I & XI.</div>
+          <br></br>
+          <div><sup>7</sup>CNBC TV18. (2025, April 11). “Xi Jinping, Spain Prime Minister Pedro Sanchez discuss EU, Trump tariffs". </div> <div> <a className="text-blue-500 underline" href="https://www.cnbctv18.com/world/xi-jinping-spain-prime-minister-pedro-sanchez-eu-trump-tariffs-donald-trump-china-us-19587980.html">https://www.cnbctv18.com/world/xi-jinping-spain-prime-minister-pedro-sanchez-eu-trump-tariffs-donald-trump-china-us-19587980.html</a></div>
+          <br></br>
+          <div><sup>8</sup>Xinhua News Agency. (2025, April 11). President Xi calls for China-EU cooperation against unilateralism.</div>
+          <br></br>
+
+          <div><sup>9</sup>Firstpost. (2025, April 12). “How US-China trade war has a silver lining for India”.
+            <a className="text-blue-500 underline" href="https://www.firstpost.com/world/how-us-china-trade-war-has-a-silver-lining-for-india-10173661.html"> How US-China trade war
+              has a silver lining for India – Firstpost. </a></div>
+        </div>
+      ],
+      "des": (<div>
+        <p>
+          In April 2025, the United States reignited its trade conflict with China through a sweeping increase in tariffs, announcing an effective tax rate of <strong>145%</strong> on Chinese imports after clarifying earlier confusion. This unprecedented move, combined with China’s sharp countermeasures and international diplomatic condemnation, raises urgent legal and geopolitical concerns.
+        </p>
+        <br></br>
+        <p>
+          As China appeals to the European Union to stand against “unilateral bullying”, the escalating dispute casts a shadow over the World Trade Organization (WTO) and the rules-based international trade system. This article explores the domestic legal basis for these actions, their conformity with international obligations, and their implications for global trade law.
+        </p>
+        <br></br>
+        <h2> <strong>I. INTRODUCTION</strong></h2>
+        <p>
+          In a dramatic escalation of economic hostilities, the United States confirmed on April 11, 2025, that it would impose a <strong>145%</strong> tariff on Chinese imports, not 125% as initially stated by former President Donald Trump in a Truth Social post. This clarification came amid widespread market volatility and growing global alarm. China immediately announced further countermeasures, intensifying an already tense trade standoff. As legal observers and policymakers examine these developments, the core issue remains: can such sweeping unilateral trade actions stand up to legal scrutiny within the framework of the WTO and broader international law?<sup>1</sup>
+        </p>
+        <br></br>
+        <h2> <strong>II. U.S. Legal Justification: Section 301 and Beyond</strong></h2>
+        <p>
+          The current wave of U.S. tariffs is based on <strong>Section 301 of the Trade Act of 1974</strong>, which allows the United States Trade Representative (USTR) to impose duties in response to unfair trade practices.<sup>2</sup> While domestically authorized, Section 301 actions that bypass WTO adjudication may violate <strong>Article 23</strong> of the <strong>Dispute Settlement Understanding (DSU)</strong>, which obliges members to use WTO mechanisms to resolve disputes.<sup>3</sup>
+        </p>
+        <p>
+          In the 1999 WTO decision United States – Sections 301–310 of the Trade Act of 1974, the panel emphasized that unilateral measures are not permitted where multilateral avenues are available and functional.<sup>4</sup> The 145% tariff rate includes previously announced levies, compounding concerns about the proportionality and necessity of such actions. Such extreme measures blur the line between permissible retaliation and economic coercion.
+        </p>
+        <br></br>
+        <h2> <strong>III. China's Countermeasures and Legal Retaliation</strong></h2>
+        <p>
+          In response, China announced expanded tariffs on U.S. goods and signaled renewed restrictions on American businesses via its <strong>“Unreliable Entity List.”</strong> <sup>5</sup> Beijing’s latest retaliatory measures deepen the tit-for-tat pattern seen since 2018. While China's actions may be seen as responsive, they too challenge WTO rules, including <strong>GATT Articles I and XI,</strong> which prohibit discriminatory practices and unjustified trade barriers.<sup>6</sup>
+        </p>
+        <p>
+          What sets this round apart is the international dimension: Chinese President Xi Jinping directly appealed to the <strong>European Union</strong> on April 11, 2025, calling for unified resistance to what he described as <strong>“unilateral bullying.”</strong> In meetings with Spanish Prime Minister Pedro Sánchez, Xi framed the dispute as a challenge to global governance, emphasizing multilateralism over coercive economic statecraft.<sup>7</sup>
+        </p>
+        <br></br>
+        <h2> <strong>IV. Multilateralism Under Pressure</strong></h2>
+        <p>
+          The WTO’s credibility remains in jeopardy. The continued paralysis of its <strong>Appellate Body</strong> has undermined enforcement capabilities, encouraging powerful economies to act outside the rules-based system. The use of <strong>national security exceptions</strong>, particularly <strong>Article XXI of the GATT</strong>, is increasingly cited by the U.S. as a legal shield—raising fears of abuse and setting dangerous precedents.<sup>8</sup>
+        </p>
+        <p>
+          Xi Jinping’s appeal to Europe underscores a key shift: the conflict is no longer bilateral. The EU’s response—still developing—could determine whether WTO reform efforts can succeed or whether economic alliances will fracture into competing spheres of influence
+        </p>
+        <br></br>
+        <h2> <strong>V. Implications for Third Countries</strong></h2>
+        <p>
+          The US-China trade conflict presents a major opportunity for India, with its strong domestic consumption and diverse exports like pharmaceuticals, IT services, and textiles. US-India trade hit $129.2 billion in 2024, and the pause on reciprocal tariffs gives India room to negotiate better deals. As global businesses look for alternatives to China, India’s growing electronics and textile sectors are becoming increasingly attractive, with companies like Apple boosting production there.<sup>9</sup> Third-party nations must tread carefully. While capitalizing on opportunity, they risk being caught in regulatory crossfire or targeted in future unilateral measures. As such, multilateral diplomatic engagement will be key to maintaining trade stability.
+        </p>
+        <br></br>
+        <h2> <strong>VI. Conclusion</strong></h2>
+        <p>
+          The April 2025 tariff escalation represents a defining moment for the global trade regime. While the United States has legal tools at its disposal, their expansive application raises profound questions about proportionality, legality, and the future of international cooperation. China's retaliatory posture and its outreach to the EU mark a new geopolitical phase of the conflict. Without systemic reform or renewed diplomatic commitment to WTO principles, the risk is not just economic fragmentation—but a lasting erosion of the legal foundations of global trade.
+        </p>
+
+
+
+
+
+
+
+
+      </div>),
+      "borderColor": "#004080",
+      "tag1": "US-China Trade War",
+      "tag2": "WTO",
+    },
+
+
+
     {
       "imgUrl": "https://images.livemint.com/img/2024/07/30/600x338/Sebi_1707411400672_1722317453117.jpg",
       "cardTitle": "SEBI's Operationalization of PaRRVA: A Bold Step Towards Verifiable Investment Claims",
@@ -102,6 +198,7 @@ function App() {
       "tag1": "SEBIRegulations",
       "tag2": "InvestorProtection",
     },
+
     {
       "imgUrl": "https://media.istockphoto.com/id/1435605327/photo/cybersecurity-concept-global-network-security-technology-business-people-protect-personal.jpg?s=612x612&w=0&k=20&c=9QvqAsfANdpsNcYdZ0WlMd5lKaTR9BvnTpFnrtGbV0s=",
       "cardTitle": "India's Digital Personal Data Protection (DPDP) Regulations: A Pivotal Advancement in Data Privacy and Governance",
@@ -278,6 +375,7 @@ function App() {
       "tag1": "WhistleblowerProtection",
       "tag2": "CorporateTransparency",
     },
+
   ];
 
   // https://shubhamm0707.github.io/jsonAPI/data.json
