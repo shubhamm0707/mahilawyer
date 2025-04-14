@@ -63,7 +63,7 @@ function App() {
         <br></br>
         <h2> <strong>I. INTRODUCTION</strong></h2>
         <p>
-          In a dramatic escalation of economic hostilities, the United States confirmed on April 11, 2025, that it would impose a <strong>145%</strong> tariff on Chinese imports, not 125% as initially stated by former President Donald Trump in a Truth Social post. This clarification came amid widespread market volatility and growing global alarm. China immediately announced further countermeasures, intensifying an already tense trade standoff. As legal observers and policymakers examine these developments, the core issue remains: can such sweeping unilateral trade actions stand up to legal scrutiny within the framework of the WTO and broader international law?<sup>1</sup>
+          In a dramatic escalation of economic hostilities, the United States confirmed on April 11, 2025, that it would impose a <strong>145%</strong> tariff on Chinese imports, not 125% as initially stated by President Donald Trump in a Truth Social post. This clarification came amid widespread market volatility and growing global alarm. China immediately announced further countermeasures, intensifying an already tense trade standoff. As legal observers and policymakers examine these developments, the core issue remains: can such sweeping unilateral trade actions stand up to legal scrutiny within the framework of the WTO and broader international law?<sup>1</sup>
         </p>
         <br></br>
         <h2> <strong>II. U.S. Legal Justification: Section 301 and Beyond</strong></h2>
